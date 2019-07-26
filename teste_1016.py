@@ -1,5 +1,8 @@
-km = int(input('Informe seu km/h: '))
+#!/usr/bin/env python
+# -- coding: utf-8 --
 
-distancia = km * 2
+km = int(input())
 
-print ('A distancia é {} minutos'.format(distancia))
+minutos = km * 2
+
+print ('{} minutos'.format(minutos))
